@@ -192,9 +192,9 @@
       "paint": {
         "line-color": {
           "stops": [
-            [4, "rgba(103, 103, 114, 1)"],
-            [5, "rgba(103, 103, 114, 1)"],
-            [6, "rgba(103, 103, 114, 1)"]
+            [4, "#9a67ea"],
+            [5, "#9a67ea"],
+            [6, "#9a67ea"]
           ]
         },
         "line-width": {
@@ -270,7 +270,7 @@
             [16, 10]
           ]
         },
-        "line-color": "#111"
+        "line-color": "#9a67ea"
       }
     },
     {
@@ -281,7 +281,7 @@
       "minzoom": 13,
       "filter": ["all", ["==", "class", "taxiway"]],
       "paint": {
-        "line-color": "#111",
+        "line-color": "#9a67ea",
         "line-width": {
           "stops": [
             [13, 0.5],
