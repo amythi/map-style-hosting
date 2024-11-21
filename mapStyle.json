@@ -50,7 +50,7 @@
       "filter": ["all", ["==", "class", "country"]],
       "layout": {
         "text-field": ["get", "name"],
-        "text-font": ["Open Sans"],
+        "text-font": ["Open Sans Regular"],
         "text-size": {
           "stops": [[2, 14], [6, 22]]
         },
@@ -58,7 +58,7 @@
       },
       "paint": {
         "text-color": "#9a67ea",
-        "text-halo-color": "#FFFFF",
+        "text-halo-color": "#FFFFFF",
         "text-halo-width": 0
       }
     },
@@ -70,7 +70,7 @@
       "minzoom": 6,
       "layout": {
         "text-field": ["get", "name"],
-        "text-font": ["Open Sans"],
+        "text-font": ["Open Sans Regular"],
         "text-size": {
           "stops": [[6, 12], [12, 24]]
         },
