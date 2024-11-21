@@ -31,11 +31,11 @@
       "paint": {
         "fill-color": {
           "stops": [
-            [8, "#0e0e0e"],
-            [9, "#0e0e0e"],
-            [11, "#0e0e0e"],
-            [13, "#0e0e0e"],
-            [15, "#0e0e0e"]
+            [8, "#e0e0e0"],
+            [9, "#e0e0e0"],
+            [11, "#e0e0e0"],
+            [13, "#e0e0e0"],
+            [15, "#e0e0e0"]
           ]
         },
         "fill-opacity": 1
@@ -1010,7 +1010,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#262626",
+        "line-color": "#cccccc",
         "line-dasharray": {
           "stops": [
             [15, [2, 2]],
