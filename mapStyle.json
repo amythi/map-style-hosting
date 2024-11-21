@@ -59,7 +59,8 @@
       "paint": {
         "text-color": "#9a67ea",
         "text-halo-color": "#FFFFFF",
-        "text-halo-width": 0
+        "text-halo-width": 0,
+        "text-opacity": 1
       }
     },
     {
@@ -79,7 +80,8 @@
       "paint": {
         "text-color": "#9a67ea",
         "text-halo-color": "#800080",
-        "text-halo-width": 0
+        "text-halo-width": 0,
+        "text-opacity": 1
       }
     },
     {
