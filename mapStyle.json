@@ -42,6 +42,26 @@
       }
     },
     {
+      "id": "city_labels",
+      "type": "symbol",
+      "source": "carto",
+      "source-layer": "place",
+      "minzoom": 6,
+      "layout": {
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Bold"],
+        "text-size": {
+          "stops": [[6, 12], [12, 24]]
+        },
+        "text-anchor": "center"
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 2
+      }
+    },
+    {
       "id": "park_national_park",
       "type": "fill",
       "source": "carto",
