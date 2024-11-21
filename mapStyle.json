@@ -223,7 +223,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": { "visibility": "visible" },
       "paint": {
-        "fill-color": "#2C353C",
+        "fill-color": "#d1d1d1",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
