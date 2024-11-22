@@ -72,7 +72,7 @@
                   ]
                ]
             },
-            "fill-opacity":1
+            "fill-opacity":0
          }
       },
       {
@@ -665,6 +665,44 @@
       },
       {
          "id":"aeroway-taxiway",
+         "type":"line",
+         "source":"carto",
+         "source-layer":"aeroway",
+         "minzoom":13,
+         "filter":[
+            "all",
+            [
+               "==",
+               "class",
+               "taxiway"
+            ]
+         ],
+         "paint":{
+            "line-color":"#9a67ea",
+            "line-width":{
+               "stops":[
+                  [
+                     13,
+                     0.5
+                  ],
+                  [
+                     14,
+                     1
+                  ],
+                  [
+                     15,
+                     2
+                  ],
+                  [
+                     16,
+                     4
+                  ]
+               ]
+            }
+         }
+      },
+      {
+         "id":"aeroway",
          "type":"line",
          "source":"carto",
          "source-layer":"aeroway",
